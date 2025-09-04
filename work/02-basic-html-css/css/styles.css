@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: #CEEDE6;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.header {
+  background-color: #256E5E;
+  display: flex;
+  color: white;
+  padding: 10px 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer {
+  background-color: #256E5E;
+  margin-top: auto;
+  color: white;
+  position: absolute;
+  padding: 10px 20px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer .footer-link {
+  color: #fff;
+}
+
+.footer .footer-link:hover {
+  color: #02392D;
+  font-weight: bold;
+}

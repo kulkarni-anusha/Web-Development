@@ -1,0 +1,25 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    width: 50%;
+    margin: 25px auto;
+    line-height: 1.6;
+}
+
+.text .content-link {
+    color: #256E5E;
+    text-decoration: none;
+}
+
+.text .content-link:hover {
+    font-weight: bold;
+}
+
+.text::first-letter {
+    font-size: 150%;
+    font-weight: bold;
+    color: #256E5E;
+}
